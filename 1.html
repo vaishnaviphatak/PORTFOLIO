@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vaishnavi Phatak | Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container nav">
+            <div class="logo">Vaishnavi Phatak</div>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#contact">Contact</a>
+                <button id="theme-toggle" class="theme-btn" aria-label="Toggle Dark Mode">🌙</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home">
+            <div class="home-content">
+                <span class="greeting">Hi there! <span class="wave">👋</span></span>
+                <h1>I'm Vaishnavi Phatak</h1>
+                <img src="images/4.png" alt="profile" class="profile-img" />
+            </div>
+        </section>
+
+        <section id="about" class="about-section reveal">
+            <h2>About Me</h2>
+            <p>
+                I am a passionate software developer with a strong interest in building clean, responsive,
+                and user-friendly web applications. I enjoy turning ideas into real-world solutions
+                through efficient code and modern technologies.
+            </p>
+            <p>
+                I continuously strive to improve my skills, explore new tools, and solve challenging
+                problems. My goal is to create impactful digital experiences that are both functional
+                and visually appealing.
+            </p>
+        </section>
+
+        <section id="projects" class="projects-section reveal">
+            <h2>My Projects</h2>
+            <div class="project-grid">
+                <div class="project-card">
+                    <h3>Pathfinding Visualizer</h3>
+                    <p>A tool to visualize algorithms like BFS, DFS, and Dijkstra on a grid.</p>
+                    <div class="project-links">
+                        <a
+                            href="http://127.0.0.1:5501/Pathfinding-Visualizer-main/Pathfinding-Visualizer/pathfinding-visualizer/index.html">Live
+                            Demo</a>
+                        <a href="https://github.com/vaishnaviphatak/Pathfinding-Visualizer.git">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>LinkSwift</h3>
+                    <p>A simple URL shortener built with Django.</p>
+                    <div class="project-links">
+                        <a href="http://127.0.0.1:8000/">Live Demo</a>
+                        <a href="https://github.com/vaishnaviphatak/URL-Shortener-Project.git">GitHub</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <h3>MyFinance</h3>
+                    <p>A personal finance dashboard to track expenses and income.</p>
+                    <div class="project-links">
+                        <a href="#">Live Demo</a>
+                        <a href="https://github.com/vaishnaviphatak/Personal-Finance-Dashboard.git">GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="achievements" class="achievements-section reveal">
+            <h2>Achievements</h2>
+            <div class="achievements-grid">
+                <div class="achievements-card">
+                    <h3>GenAI Explorer</h3>
+                    <img src="/images/1.png" alt="GenAI" class="card-img">
+                    <p>Learned basics of Generative AI and data analytics.</p>
+                </div>
+                <div class="achievements-card">
+                    <h3>COOK-BOOK 3.0</h3>
+                    <img src="/images/3.png" alt="cookbook" class="card-img">
+                    <p>Contributed to open-source projects during college.</p>
+                </div>
+                <div class="achievements-card">
+                    <h3>Python Intern</h3>
+                    <img src="/images/2.png" alt="python" class="card-img">
+                    <p>Completed a 2-month internship as a Python developer.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-section reveal">
+            <h2>Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" required />
+                <input type="email" placeholder="Your Email" required />
+                <textarea placeholder="Your Message" rows="5" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
